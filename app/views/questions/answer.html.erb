@@ -1,0 +1,9 @@
+<div class="p-5">
+<h2>You: <%= params[:answer] %></h2>
+</div>
+<div class="p-5">
+<h2 class>Coach: <%= @coach_answer %></h2>
+</div>
+<div class="btn btn-info text-white p-3">
+<%= link_to "Ask something else", ask_path %>
+</div>
